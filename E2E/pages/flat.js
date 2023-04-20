@@ -22,9 +22,7 @@ class flat {
     async min() {
         // let x = "2     1"
         let int = this.pricemin.innerText
-        int = int.split(' ').join('')
-
-
+        int = int.replace(/\s/g, '');
         return int
     }
 }
