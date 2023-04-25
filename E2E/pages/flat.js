@@ -18,6 +18,9 @@ class flat {
         this.material1 = Selector('.dropdown_2')
         this.material2 = Selector('li').withText(dataSet.buy.wall_material)
         this.title = Selector('span').withText('Автобарахолка')
+        this.sortDefault = Selector('.dropdown_right')
+        this.sortCheap = Selector('li').withText('Дешёвые')
+        this.sortExpensive = Selector('li').withText('Дорогие')
         }
     async min() {
         // let x = "2     1"

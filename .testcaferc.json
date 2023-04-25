@@ -1,0 +1,5 @@
+{
+    "skipJsErrors": true,
+    "videoPath": "artifacts/videos",
+    "failedOnly": true
+}
