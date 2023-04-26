@@ -24,5 +24,5 @@ or
 
 ### Execute tests:
 
-`testcafe chrome ./tests/`
+`npm run test:chrome`
 
